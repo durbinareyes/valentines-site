@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ data.title }}</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>{{ data.question }}</h1>
+
+  <div class="buttons">
+    <button id="yesBtn">{{ data.yes_text }}</button>
+    <button id="noBtn">{{ data.no_text }}</button>
+  </div>
+
+  <p id="response"></p>
+</div>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>
